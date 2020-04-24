@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/srikumar/CLionProjects/RWA3_Group2/LandBasedRobot/landbasedrobot.h
+iostream
+-
+string
+-
+
+/home/srikumar/CLionProjects/RWA3_Group2/LandBasedTracked/landbasedtracked.h
+iostream
+-
+string
+-
+memory
+-
+../LandBasedRobot/landbasedrobot.h
+/home/srikumar/CLionProjects/RWA3_Group2/LandBasedRobot/landbasedrobot.h
+
+/home/srikumar/CLionProjects/RWA3_Group2/LandBasedWheeled/landbasedwheeled.h
+iostream
+-
+string
+-
+memory
+-
+../LandBasedRobot/landbasedrobot.h
+/home/srikumar/CLionProjects/RWA3_Group2/LandBasedRobot/landbasedrobot.h
+
+/home/srikumar/CLionProjects/RWA3_Group2/main.cpp
+LandBasedTracked/landbasedtracked.h
+/home/srikumar/CLionProjects/RWA3_Group2/LandBasedTracked/landbasedtracked.h
+LandBasedWheeled/landbasedwheeled.h
+/home/srikumar/CLionProjects/RWA3_Group2/LandBasedWheeled/landbasedwheeled.h
+vector
+-
+memory
+-
+iostream
+-
+
